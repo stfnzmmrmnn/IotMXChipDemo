@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": "Device"
+        }
+    ],
+    "settings": {
+        "IoTWorkbench.BoardId": "devkit",
+        "IoTWorkbench.DevicePath": "Device",
+        "IoTWorkbench.iothubConnectionString": "HostName=aspire-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=hjbh2uK6cVCkvR1MMOabVPFblFmDoR3yg6k8Iu2oeDs=",
+        "IoTWorkbench.eventHubConnectionString": "Endpoint=sb://iothub-ns-aspire-iot-1677295-0826eee887.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=hjbh2uK6cVCkvR1MMOabVPFblFmDoR3yg6k8Iu2oeDs=",
+        "IoTWorkbench.eventHubConnectionPath": "aspire-iot-hub",
+        "IoTWorkbench.iothubDeviceConnectionString": "HostName=aspire-iot-hub.azure-devices.net;DeviceId=mxchip;SharedAccessKey=3gf0tYcU9MgiTd3ad3hKs8Rckcr55lv1cVpOP0F5tP8=",
+        "files.associations": {
+            "cmath": "cpp",
+            "cstdlib": "cpp"
+        }
+    }
+}
