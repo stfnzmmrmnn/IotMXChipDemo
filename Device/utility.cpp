@@ -226,7 +226,7 @@ bool* readMessage(int messageId, char *payload, float *temperatureValue, float *
     {
         temperatureAlert = true;
     }
-    if (abs(a[0]) > ACCELEROMETER_ALERT || abs(a[1]) > ACCELEROMETER_ALERT || abs(a[2]) > ACCELEROMETER_ALERT)
+    if (abs(a[0]) > ACCELEROMETER_ALERT)
     {
         motionAlert = true;
     }
