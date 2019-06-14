@@ -34,7 +34,7 @@ static void InitWifi()
   else
   {
     hasWifi = false;
-    Screen.print(1, "No Wi-Fi\r\n ");
+    Screen.print(1, "Da fuq? No Wi-Fi\r\n ");
   }
 }
 
