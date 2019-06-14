@@ -13,7 +13,8 @@
         "IoTWorkbench.iothubDeviceConnectionString": "HostName=aspire-iot-hub.azure-devices.net;DeviceId=mxchip;SharedAccessKey=3gf0tYcU9MgiTd3ad3hKs8Rckcr55lv1cVpOP0F5tP8=",
         "files.associations": {
             "cmath": "cpp",
-            "cstdlib": "cpp"
+            "cstdlib": "cpp",
+            "cstdio": "cpp"
         }
     }
 }

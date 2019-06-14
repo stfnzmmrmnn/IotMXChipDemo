@@ -3,5 +3,5 @@
     "configuration": "upload_method=OpenOCDMethod",
     "sketch": "GetStarted.ino",
     "output": "./.build",
-    "port": "COM4"
+    "port": "COM3"
 }
