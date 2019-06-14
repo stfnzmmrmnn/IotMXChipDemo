@@ -23,7 +23,7 @@ static float humidity;
 static void InitWifi()
 {
   Screen.print(2, "Connecting...");
-  
+   WiFi.begin("Victory to the Daleks!", "1HerzInternetz2k!");
   if (WiFi.begin() == WL_CONNECTED)
   {
     IPAddress ip = WiFi.localIP();
