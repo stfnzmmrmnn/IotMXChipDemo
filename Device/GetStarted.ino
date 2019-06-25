@@ -29,12 +29,12 @@ static void InitWifi()
     IPAddress ip = WiFi.localIP();
     Screen.print(1, ip.get_address());
     hasWifi = true;
-    Screen.print(2, "Running... \r\n");
+    Screen.print(2, "It's working! \r\n");
   }
   else
   {
     hasWifi = false;
-    Screen.print(1, "Da fuq? No Wi-Fi\r\n ");
+    Screen.print(1, "Noes!! No Wi-Fi\r\n ");
   }
 }
 
@@ -46,7 +46,7 @@ static void SendConfirmationCallback(IOTHUB_CLIENT_CONFIRMATION_RESULT result)
     sentMessageCount++;
   }
 
-  Screen.print(1, "> Brudi");
+  Screen.print(1, "Unicorntroller");
   char line1[20];
   sprintf(line1, "Count: %d/%d",sentMessageCount, messageCount); 
   Screen.print(2, line1);
