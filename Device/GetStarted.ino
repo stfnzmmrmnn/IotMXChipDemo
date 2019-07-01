@@ -22,7 +22,7 @@ static float humidity;
 // Utilities
 static void InitWifi()
 {
-  Screen.print(2, "Connecting...");
+  Screen.print(2, "Connecting to Unicorn");
    WiFi.begin("PLACEHOLDER", "PLACEHOLDER");
   if (WiFi.begin() == WL_CONNECTED)
   {
