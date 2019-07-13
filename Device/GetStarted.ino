@@ -46,7 +46,7 @@ static void SendConfirmationCallback(IOTHUB_CLIENT_CONFIRMATION_RESULT result)
     sentMessageCount++;
   }
 
-  Screen.print(1, "Unicorntroller");
+  Screen.print(1, "Sending to Cloud");
   char line1[20];
   sprintf(line1, "Count: %d/%d",sentMessageCount, messageCount); 
   Screen.print(2, line1);
@@ -110,7 +110,7 @@ static int  DeviceMethodCallback(const char *methodName, const unsigned char *pa
 void setup()
 {
   Screen.init();
-  Screen.print(0, "UPS");
+  Screen.print(0, "Unicorntroller");
   Screen.print(2, "Initializing...");
   
   Screen.print(3, " > Serial");
