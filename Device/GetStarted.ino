@@ -23,7 +23,7 @@ static float humidity;
 static void InitWifi()
 {
   Screen.print(2, "Connecting to Unicorn");
-   WiFi.begin("PLACEHOLDER", "PLACEHOLDER");
+   WiFi.begin("MSFTWIFI", "Microsoft");
   if (WiFi.begin() == WL_CONNECTED)
   {
     IPAddress ip = WiFi.localIP();
