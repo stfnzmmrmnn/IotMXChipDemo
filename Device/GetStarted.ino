@@ -110,7 +110,7 @@ static int  DeviceMethodCallback(const char *methodName, const unsigned char *pa
 void setup()
 {
   Screen.init();
-  Screen.print(0, "Yo Digga");
+  Screen.print(0, "UPS");
   Screen.print(2, "Initializing...");
   
   Screen.print(3, " > Serial");
